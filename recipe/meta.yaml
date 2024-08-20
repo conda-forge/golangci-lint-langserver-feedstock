@@ -1,5 +1,5 @@
 {% set name = "golangci-lint-langserver" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/nametake/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 1eeaf97b8296db740a49c20eb15d1ed2a73825da213a720f27f2fafc054191bd
+  sha256: ad7241d271b9b46b6fc784ab1d035c322bd6ae44938514d69f5ad516a1a9fbfd
 
 build:
   number: 0
